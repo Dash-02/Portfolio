@@ -1,28 +1,86 @@
 .header {
     height: 70px;
     background-color: #475E75;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .line {
     height: 70px;
-    width: 2px;
+    width: 3px;
+    background-color: #96C0E9;
 }
 
 nav {
-    width: 250px;
+    width: 450px;
+    height: 40px;
+
+    background: linear-gradient(to right, #74A6D9, #E098C6);
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+a:active {
+    color: #FFE0E3;
 }
 
 .logo-img {
     width: 50px;
     height: 50px;
-
-    margin-top: 10px;
-    margin-left: 10px;
 }
 
 .logo-text {
-    font-size: 24px;
-    font-family: 'Kaisei Tokumin', serif;
+    width: 100px;
+    height: 40px;
 
+    background: linear-gradient(to right, #74A6D9, #E098C6);
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: 'Kaisei Tokumin', serif;
     color: #fff;
+}
+
+.themes {
+    width: 100px;
+    height: 40px;
+
+    background: linear-gradient(to right, #74A6D9, #E098C6);
+    border-radius: 40px;
+}
+
+.themes button {
+    border-style: none;
+    background: none;
+    width: 50px;
+    height: 40px;
+}
+
+button img {
+    /* fill: #FFE0E3; */
+    width: 30px;
+    height: 30px;
+}
+
+svg path:active {
+    fill: #FFE0E3;
+}
+
+img svg {
+    fill: #FFE0E3;
 }
