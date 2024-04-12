@@ -6,9 +6,11 @@ import ImgMoon from '../assets/logo/moon.svg';
 function Header() {
   return (
     <header className='header'>
-      <img className='logo-img' src={ImgLogo} alt="logo" />
-      <div className='logo-text'>
-        <a href="Home">Darlix</a>
+      <div className='logo'>
+        <img className='logo-img' src={ImgLogo} alt="logo" />
+        <div className='logo-text'>
+          <a href="Home">Darlix</a>
+        </div>
       </div>
       <div className='line'></div>
       <nav>

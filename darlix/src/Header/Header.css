@@ -29,10 +29,24 @@ a {
     text-decoration: none;
     color: #fff;
     font-family: 'Kaisei Tokumin', serif;
+    transition: filter 0.3s;
+}
+
+a:hover {
+    color: #FFE0E3;
 }
 
 a:active {
-    color: #FFE0E3;
+    color: #fff;
+}
+
+.logo {
+    height: 70px;
+    width: 180px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-img {
@@ -66,21 +80,34 @@ a:active {
 
 .themes button {
     border-style: none;
-    background: none;
     width: 50px;
     height: 40px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 button img {
     /* fill: #FFE0E3; */
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+
+    transition: filter 0.3s;
 }
 
+button:hover img {
+    filter: brightness(0.9);
+}
+  
+button:active img {
+    filter: brightness(1.1);
+}
+/* 
 svg path:active {
     fill: #FFE0E3;
 }
 
 img svg {
     fill: #FFE0E3;
-}
+} */
+
+
