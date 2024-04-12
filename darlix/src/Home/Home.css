@@ -1,0 +1,19 @@
+.main {
+    background-image: url('../assets/img/background.png');
+    
+    height: 100vh;
+    /* display: flex;
+    align-items: center; */
+      
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.img-round {
+    display: flex;
+    justify-content: start;
+}
+
+.img-round .round2 {
+    justify-content: end;
+}

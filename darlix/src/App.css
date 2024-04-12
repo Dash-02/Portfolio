@@ -1,22 +1,11 @@
-.App-header {
+.App {
   /* background-color: #282c34; */
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.main {
-  background-image: url('./background.png');
-  /* width: 100%; */
-  height: 1920px;
-  display: flex;
-    align-items: center;
-    
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
+  color: white; */
+  background-color: #96C0E9;
 }
